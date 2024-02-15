@@ -1,0 +1,30 @@
+{% schema %}
+{
+  "name": "Content List",
+  "settings": [
+    {
+      "type": "text",
+      "id": "brand_name",
+      "label": "Brand Name",
+      "default": "Brand"
+    },
+    {
+      "type": "textarea",
+      "id": "brand_items",
+      "label": "Brand Items",
+      "default": "Item 1, Item 2, Item 3"
+    }
+  ]
+}
+{% endschema %}
+
+{% assign items = settings.brand_items | split: ',' %}
+
+<section>
+  <h2>{{ settings.brand_name }}</h2>
+  <ol>
+    {% for item in items %}
+      <li>{{ item | strip }}</li>
+    {% endfor %}
+  </ol>
+</section>
