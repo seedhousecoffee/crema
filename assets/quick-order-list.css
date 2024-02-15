@@ -32,6 +32,14 @@ quick-order-list .quantity__button {
   z-index: 1;
 }
 
+.variant-item__quantity .quantity:before {
+  z-index: 0;
+}
+
+.variant-item__quantity .quantity__button {
+  z-index: 1;
+}
+
 @media screen and (min-width: 990px) {
   .quick-order-list__total {
     position: sticky;
@@ -475,6 +483,10 @@ quick-order-list-remove-button:hover .icon-remove {
     padding-top: 0;
   }
 
+  .quick-order-list__table .desktop-row-error td {
+    padding-top: 0;
+  }
+
   .quick-order-list__table .variant-item--unit-price td {
     vertical-align: middle;
   }
@@ -505,6 +517,7 @@ quick-order-list-remove-button:hover .icon-remove {
 }
 
 @media screen and (min-width: 990px) {
+
   .quick-order-list__table thead th:first-child,
   .quick-order-list-total__column {
     width: 37%;
