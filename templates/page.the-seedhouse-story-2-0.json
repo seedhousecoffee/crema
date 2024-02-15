@@ -1,1 +1,281 @@
-{"sections":{"main":{"type":"main-page","disabled":true,"custom_css":[],"settings":{"padding_top":0,"padding_bottom":0}},"1687106562c5a59f3d":{"type":"apps","settings":{"include_margins":true}},"3b06c358-fe0d-461d-bc12-4d8fb73b7554":{"type":"image-with-text","blocks":{"template--14947797368886__3b06c358-fe0d-461d-bc12-4d8fb73b7554-16875496850bfee84c-0":{"type":"heading","settings":{"heading":"The Seedhouse Story","heading_size":"h2"}},"template--14947797368886__3b06c358-fe0d-461d-bc12-4d8fb73b7554-16875496850bfee84c-1":{"type":"text","settings":{"text":"<p>Locally owned + operated in downtown Steamboat Springs, Colorado, our team at Seedhouse Coffee Roasters is all about offering the best quality coffee to our coffee-drinking + adventure community!<\/p><p><\/p><p>Seedhouse is owned and operated by two Steamboat families, Ryan + Alyssa Stauffer, and Kendra + Chase Lovins.<\/p>","text_style":"body"}},"template--14947797368886__3b06c358-fe0d-461d-bc12-4d8fb73b7554-16875496850bfee84c-2":{"type":"button","disabled":true,"settings":{"button_label":"Button label","button_link":""}}},"block_order":["template--14947797368886__3b06c358-fe0d-461d-bc12-4d8fb73b7554-16875496850bfee84c-0","template--14947797368886__3b06c358-fe0d-461d-bc12-4d8fb73b7554-16875496850bfee84c-1","template--14947797368886__3b06c358-fe0d-461d-bc12-4d8fb73b7554-16875496850bfee84c-2"],"settings":{"image":"shopify:\/\/shop_images\/WhatsApp_Image_2022-06-14_at_5.27.07_PM.jpg","height":"adapt","desktop_image_width":"medium","layout":"image_first","desktop_content_position":"top","desktop_content_alignment":"left","content_layout":"no-overlap","color_scheme":"scheme-9e5154fd-d35a-4549-87ba-b0474dd39752","image_behavior":"none","mobile_content_alignment":"left","padding_top":36,"padding_bottom":36}},"fa6213ff-23b8-400b-a758-49ba0f93e286":{"type":"rich-text","blocks":{"template--14947797368886__fa6213ff-23b8-400b-a758-49ba0f93e286-16875499307edbc4c6-0":{"type":"heading","settings":{"heading":"Coffee with a sense of place.","heading_size":"h1"}},"template--14947797368886__fa6213ff-23b8-400b-a758-49ba0f93e286-16875499307edbc4c6-1":{"type":"text","settings":{"text":"<p>“<em>At Seedhouse, as we continue to learn more about coffee and the farmers who depend on it, we are committed to using our place in the coffee industry as a force for positive change. Our roasting philosophy centers on highlighting each coffee’s unique qualities, rather than obscuring them with heavy roasting.<\/em>” – Gates Gooding (Founder of Seedhouse Coffee Roasters)<\/p>"}},"template--14947797368886__fa6213ff-23b8-400b-a758-49ba0f93e286-16875499307edbc4c6-2":{"type":"button","settings":{"button_label":"Shop Coffee","button_link":"shopify:\/\/collections\/current-coffee","button_style_secondary":false,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["template--14947797368886__fa6213ff-23b8-400b-a758-49ba0f93e286-16875499307edbc4c6-0","template--14947797368886__fa6213ff-23b8-400b-a758-49ba0f93e286-16875499307edbc4c6-1","template--14947797368886__fa6213ff-23b8-400b-a758-49ba0f93e286-16875499307edbc4c6-2"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"scheme-9e5154fd-d35a-4549-87ba-b0474dd39752","full_width":true,"padding_top":40,"padding_bottom":52}},"20faed02-40f4-4703-a0a7-67b152762567":{"type":"image-banner","blocks":{"template--14947797368886__20faed02-40f4-4703-a0a7-67b152762567-16875501564f58c946-0":{"type":"heading","disabled":true,"settings":{"heading":"Image banner","heading_size":"h1"}},"template--14947797368886__20faed02-40f4-4703-a0a7-67b152762567-16875501564f58c946-1":{"type":"text","settings":{"text":"We specialize in small batch, single- origin coffee + we are meticulous about highlighting the very best flavor in each bean. When you sip a cup of our coffee, you can expect a full-bodied, well-balanced, straight up tasty cup of joe. ","text_style":"body"}},"template--14947797368886__20faed02-40f4-4703-a0a7-67b152762567-16875501564f58c946-2":{"type":"buttons","disabled":true,"settings":{"button_label_1":"Button label","button_link_1":"","button_style_secondary_1":false,"button_label_2":"Button label","button_link_2":"","button_style_secondary_2":false}}},"block_order":["template--14947797368886__20faed02-40f4-4703-a0a7-67b152762567-16875501564f58c946-0","template--14947797368886__20faed02-40f4-4703-a0a7-67b152762567-16875501564f58c946-1","template--14947797368886__20faed02-40f4-4703-a0a7-67b152762567-16875501564f58c946-2"],"settings":{"image":"shopify:\/\/shop_images\/large-batch-of-coffee-in-roaster.jpg","image_overlay_opacity":0,"image_height":"medium","desktop_content_position":"middle-center","show_text_box":true,"desktop_content_alignment":"center","color_scheme":"scheme-9e5154fd-d35a-4549-87ba-b0474dd39752","image_behavior":"none","mobile_content_alignment":"center","stack_images_on_mobile":true,"show_text_below":true}},"c9a9b7a5-c731-40a2-b9a9-0f3163aa39f2":{"type":"collapsible-content","blocks":{"template--14947797368886__c9a9b7a5-c731-40a2-b9a9-0f3163aa39f2-1687550340dde337c1-0":{"type":"collapsible_row","settings":{"heading":"We take care to ensure that our coffee beans are ethically sourced + of the highest quality.","icon":"check_mark","row_content":"","page":""}},"template--14947797368886__c9a9b7a5-c731-40a2-b9a9-0f3163aa39f2-1687550340dde337c1-1":{"type":"collapsible_row","settings":{"heading":"We care about the environment, and seek to be thoughtful + creative in our approach to be resource-efficient in everything we do.","icon":"check_mark","row_content":"","page":""}},"template--14947797368886__c9a9b7a5-c731-40a2-b9a9-0f3163aa39f2-1687550340dde337c1-2":{"type":"collapsible_row","settings":{"heading":"We are passionate about adventure + great coffee, and we love to see the two converge!","icon":"check_mark","row_content":"","page":""}},"template--14947797368886__c9a9b7a5-c731-40a2-b9a9-0f3163aa39f2-1687550340dde337c1-3":{"type":"collapsible_row","settings":{"heading":"We believe in leveraging our place in the coffee industry for bettering our world + community.","icon":"check_mark","row_content":"","page":""}}},"block_order":["template--14947797368886__c9a9b7a5-c731-40a2-b9a9-0f3163aa39f2-1687550340dde337c1-0","template--14947797368886__c9a9b7a5-c731-40a2-b9a9-0f3163aa39f2-1687550340dde337c1-1","template--14947797368886__c9a9b7a5-c731-40a2-b9a9-0f3163aa39f2-1687550340dde337c1-2","template--14947797368886__c9a9b7a5-c731-40a2-b9a9-0f3163aa39f2-1687550340dde337c1-3"],"settings":{"caption":"We know that the “medium is the message” and we want to anchor everything we do in...","heading":"Our Values: ","heading_size":"h1","heading_alignment":"center","layout":"none","color_scheme":"scheme-9e5154fd-d35a-4549-87ba-b0474dd39752","container_color_scheme":"scheme-9e5154fd-d35a-4549-87ba-b0474dd39752","open_first_collapsible_row":true,"image_ratio":"adapt","desktop_layout":"image_second","padding_top":36,"padding_bottom":36}},"1704b889-49cd-415d-8df2-1b019a4e676a":{"type":"image-banner","blocks":{"template--14947797368886__1704b889-49cd-415d-8df2-1b019a4e676a-16875501564f58c946-0":{"type":"heading","disabled":true,"settings":{"heading":"Image banner","heading_size":"h1"}},"template--14947797368886__1704b889-49cd-415d-8df2-1b019a4e676a-16875501564f58c946-1":{"type":"text","settings":{"text":"We seek to be generative at every level, and are deeply committed to fostering creative collaboration in our coffee roasting and in ways that fortify our local community. We are passionate about caring for not only the Steamboat community, but also the most vulnerable around the world. We give a percentage of profits toward people, projects, and initiatives that are making a difference + contributing to positive transformation around the world.","text_style":"body"}},"template--14947797368886__1704b889-49cd-415d-8df2-1b019a4e676a-16875501564f58c946-2":{"type":"buttons","disabled":true,"settings":{"button_label_1":"Button label","button_link_1":"","button_style_secondary_1":false,"button_label_2":"Button label","button_link_2":"","button_style_secondary_2":false}}},"block_order":["template--14947797368886__1704b889-49cd-415d-8df2-1b019a4e676a-16875501564f58c946-0","template--14947797368886__1704b889-49cd-415d-8df2-1b019a4e676a-16875501564f58c946-1","template--14947797368886__1704b889-49cd-415d-8df2-1b019a4e676a-16875501564f58c946-2"],"settings":{"image":"shopify:\/\/shop_images\/fresh-coffee-beans-in-water.jpg","image_overlay_opacity":0,"image_height":"medium","desktop_content_position":"middle-center","show_text_box":true,"desktop_content_alignment":"center","color_scheme":"scheme-9e5154fd-d35a-4549-87ba-b0474dd39752","image_behavior":"none","mobile_content_alignment":"center","stack_images_on_mobile":true,"show_text_below":true}}},"order":["main","1687106562c5a59f3d","3b06c358-fe0d-461d-bc12-4d8fb73b7554","fa6213ff-23b8-400b-a758-49ba0f93e286","20faed02-40f4-4703-a0a7-67b152762567","c9a9b7a5-c731-40a2-b9a9-0f3163aa39f2","1704b889-49cd-415d-8df2-1b019a4e676a"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [
+
+      ],
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "1687106562c5a59f3d": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "3b06c358-fe0d-461d-bc12-4d8fb73b7554": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14947797368886__3b06c358-fe0d-461d-bc12-4d8fb73b7554-16875496850bfee84c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Seedhouse Story",
+            "heading_size": "h2"
+          }
+        },
+        "template--14947797368886__3b06c358-fe0d-461d-bc12-4d8fb73b7554-16875496850bfee84c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Locally owned + operated in downtown Steamboat Springs, Colorado, our team at Seedhouse Coffee Roasters is all about offering the best quality coffee to our coffee-drinking + adventure community!<\/p><p><\/p><p>Seedhouse is owned and operated by two Steamboat families, Ryan + Alyssa Stauffer, and Kendra + Chase Lovins.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--14947797368886__3b06c358-fe0d-461d-bc12-4d8fb73b7554-16875496850bfee84c-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14947797368886__3b06c358-fe0d-461d-bc12-4d8fb73b7554-16875496850bfee84c-0",
+        "template--14947797368886__3b06c358-fe0d-461d-bc12-4d8fb73b7554-16875496850bfee84c-1",
+        "template--14947797368886__3b06c358-fe0d-461d-bc12-4d8fb73b7554-16875496850bfee84c-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/WhatsApp_Image_2022-06-14_at_5.27.07_PM.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "scheme-9e5154fd-d35a-4549-87ba-b0474dd39752",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "fa6213ff-23b8-400b-a758-49ba0f93e286": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14947797368886__fa6213ff-23b8-400b-a758-49ba0f93e286-16875499307edbc4c6-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Coffee with a sense of place.",
+            "heading_size": "h1"
+          }
+        },
+        "template--14947797368886__fa6213ff-23b8-400b-a758-49ba0f93e286-16875499307edbc4c6-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>“<em>At Seedhouse, as we continue to learn more about coffee and the farmers who depend on it, we are committed to using our place in the coffee industry as a force for positive change. Our roasting philosophy centers on highlighting each coffee’s unique qualities, rather than obscuring them with heavy roasting.<\/em>” – Gates Gooding (Founder of Seedhouse Coffee Roasters)<\/p>"
+          }
+        },
+        "template--14947797368886__fa6213ff-23b8-400b-a758-49ba0f93e286-16875499307edbc4c6-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Coffee",
+            "button_link": "shopify:\/\/collections\/current-coffee",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14947797368886__fa6213ff-23b8-400b-a758-49ba0f93e286-16875499307edbc4c6-0",
+        "template--14947797368886__fa6213ff-23b8-400b-a758-49ba0f93e286-16875499307edbc4c6-1",
+        "template--14947797368886__fa6213ff-23b8-400b-a758-49ba0f93e286-16875499307edbc4c6-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-9e5154fd-d35a-4549-87ba-b0474dd39752",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "20faed02-40f4-4703-a0a7-67b152762567": {
+      "type": "image-banner",
+      "blocks": {
+        "template--14947797368886__20faed02-40f4-4703-a0a7-67b152762567-16875501564f58c946-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--14947797368886__20faed02-40f4-4703-a0a7-67b152762567-16875501564f58c946-1": {
+          "type": "text",
+          "settings": {
+            "text": "We specialize in small batch, single- origin coffee + we are meticulous about highlighting the very best flavor in each bean. When you sip a cup of our coffee, you can expect a full-bodied, well-balanced, straight up tasty cup of joe. ",
+            "text_style": "body"
+          }
+        },
+        "template--14947797368886__20faed02-40f4-4703-a0a7-67b152762567-16875501564f58c946-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14947797368886__20faed02-40f4-4703-a0a7-67b152762567-16875501564f58c946-0",
+        "template--14947797368886__20faed02-40f4-4703-a0a7-67b152762567-16875501564f58c946-1",
+        "template--14947797368886__20faed02-40f4-4703-a0a7-67b152762567-16875501564f58c946-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/large-batch-of-coffee-in-roaster.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-9e5154fd-d35a-4549-87ba-b0474dd39752",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "c9a9b7a5-c731-40a2-b9a9-0f3163aa39f2": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--14947797368886__c9a9b7a5-c731-40a2-b9a9-0f3163aa39f2-1687550340dde337c1-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "We take care to ensure that our coffee beans are ethically sourced + of the highest quality.",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "template--14947797368886__c9a9b7a5-c731-40a2-b9a9-0f3163aa39f2-1687550340dde337c1-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "We care about the environment, and seek to be thoughtful + creative in our approach to be resource-efficient in everything we do.",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "template--14947797368886__c9a9b7a5-c731-40a2-b9a9-0f3163aa39f2-1687550340dde337c1-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "We are passionate about adventure + great coffee, and we love to see the two converge!",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "template--14947797368886__c9a9b7a5-c731-40a2-b9a9-0f3163aa39f2-1687550340dde337c1-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "We believe in leveraging our place in the coffee industry for bettering our world + community.",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14947797368886__c9a9b7a5-c731-40a2-b9a9-0f3163aa39f2-1687550340dde337c1-0",
+        "template--14947797368886__c9a9b7a5-c731-40a2-b9a9-0f3163aa39f2-1687550340dde337c1-1",
+        "template--14947797368886__c9a9b7a5-c731-40a2-b9a9-0f3163aa39f2-1687550340dde337c1-2",
+        "template--14947797368886__c9a9b7a5-c731-40a2-b9a9-0f3163aa39f2-1687550340dde337c1-3"
+      ],
+      "settings": {
+        "caption": "We know that the “medium is the message” and we want to anchor everything we do in...",
+        "heading": "Our Values: ",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "scheme-9e5154fd-d35a-4549-87ba-b0474dd39752",
+        "container_color_scheme": "scheme-9e5154fd-d35a-4549-87ba-b0474dd39752",
+        "open_first_collapsible_row": true,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1704b889-49cd-415d-8df2-1b019a4e676a": {
+      "type": "image-banner",
+      "blocks": {
+        "template--14947797368886__1704b889-49cd-415d-8df2-1b019a4e676a-16875501564f58c946-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--14947797368886__1704b889-49cd-415d-8df2-1b019a4e676a-16875501564f58c946-1": {
+          "type": "text",
+          "settings": {
+            "text": "We seek to be generative at every level, and are deeply committed to fostering creative collaboration in our coffee roasting and in ways that fortify our local community. We are passionate about caring for not only the Steamboat community, but also the most vulnerable around the world. We give a percentage of profits toward people, projects, and initiatives that are making a difference + contributing to positive transformation around the world.",
+            "text_style": "body"
+          }
+        },
+        "template--14947797368886__1704b889-49cd-415d-8df2-1b019a4e676a-16875501564f58c946-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14947797368886__1704b889-49cd-415d-8df2-1b019a4e676a-16875501564f58c946-0",
+        "template--14947797368886__1704b889-49cd-415d-8df2-1b019a4e676a-16875501564f58c946-1",
+        "template--14947797368886__1704b889-49cd-415d-8df2-1b019a4e676a-16875501564f58c946-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/fresh-coffee-beans-in-water.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-9e5154fd-d35a-4549-87ba-b0474dd39752",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1687106562c5a59f3d",
+    "3b06c358-fe0d-461d-bc12-4d8fb73b7554",
+    "fa6213ff-23b8-400b-a758-49ba0f93e286",
+    "20faed02-40f4-4703-a0a7-67b152762567",
+    "c9a9b7a5-c731-40a2-b9a9-0f3163aa39f2",
+    "1704b889-49cd-415d-8df2-1b019a4e676a"
+  ]
+}
