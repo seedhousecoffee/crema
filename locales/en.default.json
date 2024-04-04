@@ -360,6 +360,25 @@
       "remove_all_items_confirmation": "Remove all {{ quantity }} items from your cart?",
       "remove_all": "Remove all",
       "cancel": "Cancel"
+    },
+    "ecom-preview-page-page": {
+      "headingtext_mto4n27kavj_html": "<div><br><\/div><div><span style=\"color: rgb(var(--color-foreground)); font-family: var(--font-heading-family); font-size: calc(var(--font-heading-scale) * 4rem); font-style: var(--font-heading-style); letter-spacing: calc(var(--font-heading-scale) * .06rem);\">Crafting exceptional organic coffee that not only delights the senses but also supports sustainable practices and healthier lifestyles.<\/span><br><\/div>",
+      "textcontent_ytooc724qi_html": "In an industry flooded with conventional coffee options, we recognized the need for high-quality organic coffee that resonates with environmentally-conscious consumers seeking healthier choices.",
+      "headingtext_muizt7zvcp_html": "Why Organic?",
+      "textcontent_3aw501znl27_html": "Embracing the principles of organic farming, we prioritize sustainability, biodiversity, and environmental stewardship in every aspect of our coffee production process. From farm to cup, we strive to minimize our ecological footprint while maximizing the flavor potential of our organic beans",
+      "textcontent_3beh8qctdgp_html": "Our journey begins with extensive research and experimentation to perfect the flavor profiles of our organic coffee offerings. We invest time and resources into prototyping different roasting profiles to ensure that every cup delivers an unparalleled experience.\n",
+      "headingtext_4rza2qqpaag_html": "<div><br><\/div>Certified Organic",
+      "textcontent_9ysijex3se4_html": " Our commitment to organic certification guarantees that our coffee is free from synthetic pesticides, herbicides, and genetically modified organisms (GMOs). We partner with certified organic farms that prioritize soil health, biodiversity, and fair labor practices.",
+      "headingtext_evfij2cqqsi_html": "Quality and Flavor",
+      "textcontent_0unganoj2ey_html": "<div><br><\/div><div><span style=\"color: rgba(var(--color-foreground), 0.75); font-family: var(--font-body-family); font-size: 1.6rem; font-style: var(--font-body-style); font-weight: var(--font-body-weight); letter-spacing: 0.06rem;\">We believe that organic coffee should not only meet rigorous quality standards but also captivate your taste buds with rich, nuanced flavors. By carefully selecting the finest organic beans and employing artisanal roasting techniques, we ensure that each sip is a delightful experience.<\/span><br><\/div>",
+      "headingtext_8uhb4gvezov_html": "<div><br><\/div>Ethical Sourcing",
+      "textcontent_j2vjzlk0ufs_html": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "headingtext_9wgkhch436_html": "Better for Health<br>",
+      "textcontent_bslvrrxfdzs_html": "- Coffee is being grown in soil that is not contaminated with harmful chemicals, pesticides, herbicides, insecticides and fungicides. Many of these harmful chemicals can disrupt endocrine– correlating to fertility issues + immune disorders<div><span style=\"color: rgba(var(--color-foreground), 0.75); font-family: var(--font-body-family); font-size: 1.6rem; font-style: var(--font-body-style); font-weight: var(--font-body-weight); letter-spacing: 0.06rem;\"><br><\/span><\/div><div><span style=\"color: rgba(var(--color-foreground), 0.75); font-family: var(--font-body-family); font-size: 1.6rem; font-style: var(--font-body-style); font-weight: var(--font-body-weight); letter-spacing: 0.06rem;\">- Higher nutrient content, vitamin content&nbsp;<\/span><br><\/div><div><br><\/div><div>- Lower acidity levels than non-organic coffee– impact heartburn and indigestion many coffee drinkers experience<\/div>",
+      "headingtext_n7l8hp9tkuj_html": "Better for the Environment",
+      "textcontent_3da60v6673o_html": "- No harmful chemicals being used in the growth and cultivation of coffee beans mitigating the harmful runoff affecting the water sources and soil content of surrounding areas&nbsp;<div><br><\/div><div>- Organic beans are often grown in the shade, therefore there is no need to clear forests to create high sun exposure environment for beans grown with synthetic material<\/div>",
+      "headingtext_88signdomwm_html": "Better for Coffee Farmers + Communities",
+      "textcontent_7wwo9nxoace_html": "- Organic beans cost more money leading to a higher price for crops, yeilding higher price per pound for the farmers&nbsp;<div><br><\/div><div>- Organic farming is closely linked with fair labor Practices. Many of the farmers who are farming in compliance with organic practices are also in compliance with fair trade practices.<\/div><div><br><\/div><div>- Farmers + surrounding communities are not exposed to harmful chemicals during the cultivation + growing process<\/div>"
     }
   },
   "localization": {
