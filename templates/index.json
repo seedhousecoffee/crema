@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "46df8da4-fe0e-437c-8d8a-1500e414c66b": {
@@ -8,17 +17,17 @@
           "disabled": true,
           "settings": {
             "button_label_1": "SHOP COFFEE",
-            "button_link_1": "shopify:\/\/collections\/current-coffee",
+            "button_link_1": "shopify://collections/current-coffee",
             "button_style_secondary_1": false,
             "button_label_2": "PURCHASE E-GIFT CARD",
-            "button_link_2": "shopify:\/\/products\/seedhouse-coffee-gift-card",
+            "button_link_2": "shopify://products/seedhouse-coffee-gift-card",
             "button_style_secondary_2": true
           }
         },
         "heading_wmY8A9": {
           "type": "heading",
           "settings": {
-            "heading": "Small Batch Specialty Coffee, <strong>100% organic<\/strong> and roasted to present a distinct sense of place.",
+            "heading": "Small Batch Specialty Coffee, <strong>100% organic</strong> and roasted to present a distinct sense of place.",
             "heading_size": "h1"
           }
         }
@@ -27,11 +36,9 @@
         "template--14912332300342__46df8da4-fe0e-437c-8d8a-1500e414c66b-16869374143679a039-2",
         "heading_wmY8A9"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
-        "image": "shopify:\/\/shop_images\/banner_blank.jpg",
+        "image": "shopify://shop_images/banner_blank.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -62,8 +69,7 @@
         },
         "template--14912332300342__e31311a7-adc9-49dd-9455-0090b721e84f-1686938046a88aa1fb-2": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "template--14912332300342__e31311a7-adc9-49dd-9455-0090b721e84f-1686938046a88aa1fb-3": {
           "type": "variant_picker",
@@ -74,8 +80,7 @@
         },
         "template--14912332300342__e31311a7-adc9-49dd-9455-0090b721e84f-1686938046a88aa1fb-4": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "template--14912332300342__e31311a7-adc9-49dd-9455-0090b721e84f-1686938046a88aa1fb-5": {
           "type": "buy_buttons",
@@ -115,7 +120,7 @@
         "7b0c820e-7586-4158-bacf-866e2524a25d"
       ],
       "settings": {
-        "product": "artist-collaboration-winter-seasonal-blend",
+        "product": "winter-seasonal-blend-2",
         "color_scheme": "scheme-9e5154fd-d35a-4549-87ba-b0474dd39752",
         "secondary_background": false,
         "media_size": "medium",
@@ -164,7 +169,7 @@
       "type": "custom-liquid",
       "disabled": true,
       "settings": {
-        "custom_liquid": "<script src=\"https:\/\/static.elfsight.com\/platform\/platform.js\" data-use-service-core defer><\/script>\n<div class=\"elfsight-app-467fefe6-443b-45b7-bc82-d1bcbae59033\"><\/div>",
+        "custom_liquid": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-467fefe6-443b-45b7-bc82-d1bcbae59033\"></div>",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
@@ -182,21 +187,21 @@
         "template--14912332300342__f8d0183a-7e41-4f3f-983a-01dffc914d1e-1686938204f1f503a2-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/morning-pour-over-flat-lay.jpg",
+            "image": "shopify://shop_images/morning-pour-over-flat-lay.jpg",
             "title": "",
             "text": "",
             "link_label": "SHOP COFFEE",
-            "link": "shopify:\/\/collections\/current-coffee"
+            "link": "shopify://collections/current-coffee"
           }
         },
         "template--14912332300342__f8d0183a-7e41-4f3f-983a-01dffc914d1e-1686938204f1f503a2-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/seedsub2.jpg",
+            "image": "shopify://shop_images/seedsub2.jpg",
             "title": "",
             "text": "",
             "link_label": "SHOP SUBSCRIPTIONS",
-            "link": "shopify:\/\/products\/seedhouse-coffee-subscription-4"
+            "link": "shopify://products/seedhouse-coffee-subscription-4"
           }
         }
       },
@@ -213,7 +218,7 @@
         "column_alignment": "center",
         "background_style": "none",
         "button_label": "",
-        "button_link": "shopify:\/\/products\/seedhouse-coffee-subscription-4",
+        "button_link": "shopify://products/seedhouse-coffee-subscription-4",
         "color_scheme": "scheme-9e5154fd-d35a-4549-87ba-b0474dd39752",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
@@ -242,7 +247,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "LEARN MORE",
-            "button_link_1": "shopify:\/\/pages\/about",
+            "button_link_1": "shopify://pages/about",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -256,7 +261,7 @@
         "template--14912332300342__e396e588-5f84-4390-a360-5ce9a25abb60-16869374143679a039-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/processing-fresh-coffee-beans.jpg",
+        "image": "shopify://shop_images/processing-fresh-coffee-beans.jpg",
         "image_overlay_opacity": 10,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
