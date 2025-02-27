@@ -350,5 +350,45 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
-  {%- render "ecom_footer"-%}</body>
+  {%- render "ecom_footer"-%}<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Check if URL has the parameter
+    const urlParams = new URLSearchParams(window.location.search);
+    if (urlParams.has('discount')) {
+      const code = urlParams.get('discount');
+      
+      // Apply discount code to cart if it exists
+      fetch('/discount/' + code, {
+        method: 'GET',
+        credentials: 'same-origin',
+        headers: {
+          'Accept': 'application/json',
+          'Content-Type': 'application/json'
+        }
+      }).then(function(response) {
+        // Show a toast notification that discount was applied
+        const notification = document.createElement('div');
+        notification.textContent = 'Your 15% festival discount has been applied!';
+        notification.style.position = 'fixed';
+        notification.style.bottom = '20px';
+        notification.style.right = '20px';
+        notification.style.background = '#4CAF50';
+        notification.style.color = 'white';
+        notification.style.padding = '10px 20px';
+        notification.style.borderRadius = '4px';
+        notification.style.zIndex = '9999';
+        document.body.appendChild(notification);
+        
+        // Remove notification after 5 seconds
+        setTimeout(function() {
+          notification.style.opacity = '0';
+          notification.style.transition = 'opacity 0.5s ease';
+          setTimeout(function() {
+            document.body.removeChild(notification);
+          }, 500);
+        }, 5000);
+      });
+    }
+  });
+</script></body>
 </html>
