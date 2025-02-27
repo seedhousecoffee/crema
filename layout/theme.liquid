@@ -390,5 +390,44 @@
       });
     }
   });
+</script><script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Check if URL has the discount parameter
+    const urlParams = new URLSearchParams(window.location.search);
+    if (urlParams.has('discount')) {
+      const code = urlParams.get('discount');
+      
+      // Apply discount code to cart
+      fetch('/discount/' + code, {
+        method: 'GET',
+        credentials: 'same-origin'
+      }).then(function(response) {
+        // Create a notification
+        const toast = document.createElement('div');
+        toast.innerHTML = 'Your Winter WonderGrass discount has been applied!';
+        toast.style.position = 'fixed';
+        toast.style.bottom = '20px';
+        toast.style.right = '20px';
+        toast.style.backgroundColor = '#3d4849';
+        toast.style.color = 'white';
+        toast.style.padding = '12px 24px';
+        toast.style.borderRadius = '4px';
+        toast.style.zIndex = '9999';
+        toast.style.boxShadow = '0 2px 10px rgba(0,0,0,0.2)';
+        toast.style.fontFamily = 'Arial, sans-serif';
+        
+        document.body.appendChild(toast);
+        
+        // Remove after 5 seconds
+        setTimeout(function() {
+          toast.style.opacity = '0';
+          toast.style.transition = 'opacity 0.5s ease';
+          setTimeout(function() {
+            document.body.removeChild(toast);
+          }, 500);
+        }, 5000);
+      });
+    }
+  });
 </script></body>
 </html>
