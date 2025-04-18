@@ -517,43 +517,80 @@ document.addEventListener('DOMContentLoaded', function() {
     document.body.appendChild(cartButton);
   }
 });
-</script><script>
+
+<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Get URL parameters
   const urlParams = new URLSearchParams(window.location.search);
   const discountCode = urlParams.get('discount');
   const shippingCode = urlParams.get('shipping');
   
-  // Function to apply a discount code
-  async function applyDiscountCode(code) {
-    try {
-      // Try applying the discount code
-      const response = await fetch('/discount/' + code);
-      return response.ok;
-    } catch (error) {
-      console.error("Error applying discount code:", error);
-      return false;
+  // Only proceed if shipping code parameter exists
+  if (shippingCode && shippingCode === 'STEAMBOATSHIP') {
+    // Function to apply the shipping discount
+    async function applyShippingCode(code) {
+      try {
+        const response = await fetch('/discount/' + code);
+        return response.ok;
+      } catch (error) {
+        console.error("Error applying shipping code:", error);
+        return false;
+      }
+    }
+    
+    // Show notification for shipping discount
+    function showShippingNotification(message) {
+      const notification = document.createElement('div');
+      notification.textContent = message;
+      notification.style.position = 'fixed';
+      notification.style.bottom = '70px'; // Position below other notifications
+      notification.style.right = '20px';
+      notification.style.background = '#4CAF50';
+      notification.style.color = 'white';
+      notification.style.padding = '10px 20px';
+      notification.style.borderRadius = '4px';
+      notification.style.zIndex = '9999';
+      document.body.appendChild(notification);
+      
+      // Remove notification after 5 seconds
+      setTimeout(function() {
+        notification.style.opacity = '0';
+        notification.style.transition = 'opacity 0.5s ease';
+        setTimeout(function() {
+          if (document.body.contains(notification)) {
+            document.body.removeChild(notification);
+          }
+        }, 500);
+      }, 5000);
+    }
+    
+    // Apply shipping code with a delay to avoid conflicts with other discount
+    setTimeout(function() {
+      applyShippingCode(shippingCode).then(function(success) {
+        if (success) {
+          if (discountCode === 'STEAMBOAT10') {
+            showShippingNotification('Free shipping has been applied along with your 10% discount!');
+          } else {
+            showShippingNotification('Free shipping has been applied to your order!');
+          }
+        }
+      });
+    }, 2000); // Wait 2 seconds after page load
+  }
+  
+  // Check for incorrect notification texts and fix them
+  function fixNotificationText() {
+    if (urlParams.get('discount') === 'STEAMBOAT10') {
+      const elements = document.querySelectorAll('div');
+      elements.forEach(function(el) {
+        if (el.textContent && el.textContent.includes('20% discount')) {
+          el.textContent = el.textContent.replace('20% discount', '10% discount');
+        }
+      });
     }
   }
   
-  // Function to show notification
-  function showNotification(message) {
-    const notification = document.createElement('div');
-    notification.textContent = message;
-    notification.style.position = 'fixed';
-    notification.style.bottom = '20px';
-    notification.style.right = '20px';
-    notification.style.background = '#4CAF50';
-    notification.style.color = 'white';
-    notification.style.padding = '10px 20px';
-    notification.style.borderRadius = '4px';
-    notification.style.zIndex = '9999';
-    document.body.appendChild(notification);
-    
-    // Remove notification after 5 seconds
-    setTimeout(function() {
-      notification.style.opacity = '0';
-      notification.style.transition = 'opacity 0.5s ease';
-      setTimeout(function() {
-        if (document.body.contains(notification)) {</body>
-</html>
+  // Run text correction periodically
+  setInterval(fixNotificationText, 1000);
+});
+</script></html>
