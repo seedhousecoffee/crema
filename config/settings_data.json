@@ -1,8 +1,17 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
-    "logo": "shopify:\/\/shop_images\/SEEDHOUSE_logo_dark.png",
+    "logo": "shopify://shop_images/SEEDHOUSE_logo_dark.png",
     "logo_width": 230,
-    "favicon": "shopify:\/\/shop_images\/SEEDHOUSE_logomark_dark.svg",
+    "favicon": "shopify://shop_images/SEEDHOUSE_logomark_dark.svg",
     "type_header_font": "avenir_next_rounded_n4",
     "heading_scale": 100,
     "type_body_font": "sans-serif",
@@ -98,10 +107,10 @@
     "sale_badge_color_scheme": "scheme-9e5154fd-d35a-4549-87ba-b0474dd39752",
     "sold_out_badge_color_scheme": "background-1",
     "brand_headline": "",
-    "brand_description": "<p><\/p>",
+    "brand_description": "<p></p>",
     "brand_image_width": 100,
     "social_facebook_link": "",
-    "social_instagram_link": "https:\/\/www.instagram.com\/seedhousecoffee\/",
+    "social_instagram_link": "https://www.instagram.com/seedhousecoffee/",
     "social_youtube_link": "",
     "social_tiktok_link": "",
     "social_twitter_link": "",
@@ -131,12 +140,10 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "17151115064775110295": {
-        "type": "shopify:\/\/apps\/recharge-subscriptions\/blocks\/recharge-theme\/371eed76-0b44-4869-9813-730372ea378e",
+        "type": "shopify://apps/recharge-subscriptions/blocks/recharge-theme/371eed76-0b44-4869-9813-730372ea378e",
         "disabled": false,
         "settings": {
           "color_brand": "#467C99",
@@ -152,16 +159,19 @@
         }
       },
       "855628211100114053": {
-        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "21474836472147483647": {
-        "type": "shopify:\/\/apps\/ecomposer-landing-page-builder\/blocks\/app-embed\/a0fc26e1-7741-4773-8b27-39389b4fb4a0",
+        "type": "shopify://apps/ecomposer-landing-page-builder/blocks/app-embed/a0fc26e1-7741-4773-8b27-39389b4fb4a0",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
+      },
+      "4637414262065226582": {
+        "type": "shopify://apps/thanhbt-discounts-combine/blocks/thanhbt-discounts-combine/402d53c4-09ba-41ba-bcdd-fc89b3fd4ff4",
+        "disabled": false,
+        "settings": {}
       }
     },
     "color_schemes": {
@@ -433,7 +443,7 @@
       "sale_badge_color_scheme": "scheme-5",
       "sold_out_badge_color_scheme": "scheme-1",
       "brand_headline": "",
-      "brand_description": "<p><\/p>",
+      "brand_description": "<p></p>",
       "brand_image_width": 100,
       "social_twitter_link": "",
       "social_facebook_link": "",
