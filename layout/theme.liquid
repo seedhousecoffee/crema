@@ -523,80 +523,24 @@ document.addEventListener('DOMContentLoaded', function() {
   // Get URL parameters
   const urlParams = new URLSearchParams(window.location.search);
   const discountCode = urlParams.get('discount');
-  const shippingCode = urlParams.get('shipping');
   
-  // Function to apply a discount code using form submission
-  function applyDiscountCode(code) {
-    return new Promise((resolve) => {
-      // Create and submit a form to apply the discount
-      const form = document.createElement('form');
-      form.method = 'POST';
-      form.action = '/discount/' + code;
-      form.style.display = 'none';
-      document.body.appendChild(form);
-      
-      // Create an iframe to capture the form submission
-      const iframe = document.createElement('iframe');
-      iframe.name = 'discount_frame_' + Date.now();
-      iframe.style.display = 'none';
-      document.body.appendChild(iframe);
-      
-      // Set form target to iframe to avoid page reload
-      form.target = iframe.name;
-      
-      // After form submission completes
-      iframe.onload = function() {
-        setTimeout(() => {
-          resolve(true);
-        }, 1000);
-      };
-      
-      // Submit the form
-      form.submit();
-    });
-  }
-  
-  // Function to show notification
-  function showNotification(message) {
-    const notification = document.createElement('div');
-    notification.textContent = message;
-    notification.style.position = 'fixed';
-    notification.style.bottom = '20px';
-    notification.style.right = '20px';
-    notification.style.background = '#4CAF50';
-    notification.style.color = 'white';
-    notification.style.padding = '10px 20px';
-    notification.style.borderRadius = '4px';
-    notification.style.zIndex = '9999';
-    document.body.appendChild(notification);
-    
-    // Remove notification after 5 seconds
-    setTimeout(function() {
-      notification.style.opacity = '0';
-      notification.style.transition = 'opacity 0.5s ease';
-      setTimeout(function() {
-        if (document.body.contains(notification)) {
-          document.body.removeChild(notification);
+  // If the special combined code is in the URL
+  if (discountCode === 'STEAMBOATSPECIAL') {
+    // Find and replace any generic discount notifications
+    function updateNotificationText() {
+      const elements = document.querySelectorAll('div');
+      elements.forEach(function(el) {
+        if (el.textContent && (
+            el.textContent.includes('discount has been applied') || 
+            el.textContent.includes('Steamboat discount'))) {
+          el.textContent = 'Your 10% off + FREE SHIPPING Steamboat special offer has been applied!';
         }
-      }, 500);
-    }, 5000);
-  }
-  
-  // Handle Variation C with both discounts
-  if (discountCode === 'STEAMBOAT10' && shippingCode === 'STEAMBOATSHIP') {
-    // First apply the discount code
-    applyDiscountCode(discountCode).then(() => {
-      // Show notification for first discount
-      showNotification('Your 10% Steamboat discount has been applied!');
-      
-      // Then apply the shipping code after a delay
-      setTimeout(() => {
-        applyDiscountCode(shippingCode).then(() => {
-          // Show notification for shipping discount
-          showNotification('Free shipping has also been applied to your order!');
-        });
-      }, 2000);
-    });
+      });
+    }
+    
+    // Run immediately and then periodically to catch dynamically added notifications
+    updateNotificationText();
+    setInterval(updateNotificationText, 500);
   }
 });
 </script></html>
