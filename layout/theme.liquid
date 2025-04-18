@@ -525,72 +525,72 @@ document.addEventListener('DOMContentLoaded', function() {
   const discountCode = urlParams.get('discount');
   const shippingCode = urlParams.get('shipping');
   
-  // Only proceed if shipping code parameter exists
-  if (shippingCode && shippingCode === 'STEAMBOATSHIP') {
-    // Function to apply the shipping discount
-    async function applyShippingCode(code) {
-      try {
-        const response = await fetch('/discount/' + code);
-        return response.ok;
-      } catch (error) {
-        console.error("Error applying shipping code:", error);
-        return false;
-      }
-    }
+  // Function to directly apply discount via form submission
+  function applyDiscountViaForm(code) {
+    // Create a form element
+    const form = document.createElement('form');
+    form.method = 'POST';
+    form.action = '/discount/' + code;
+    form.style.display = 'none';
     
-    // Show notification for shipping discount
-    function showShippingNotification(message) {
-      const notification = document.createElement('div');
-      notification.textContent = message;
-      notification.style.position = 'fixed';
-      notification.style.bottom = '70px'; // Position below other notifications
-      notification.style.right = '20px';
-      notification.style.background = '#4CAF50';
-      notification.style.color = 'white';
-      notification.style.padding = '10px 20px';
-      notification.style.borderRadius = '4px';
-      notification.style.zIndex = '9999';
-      document.body.appendChild(notification);
-      
-      // Remove notification after 5 seconds
-      setTimeout(function() {
-        notification.style.opacity = '0';
-        notification.style.transition = 'opacity 0.5s ease';
-        setTimeout(function() {
-          if (document.body.contains(notification)) {
-            document.body.removeChild(notification);
-          }
-        }, 500);
-      }, 5000);
-    }
-    
-    // Apply shipping code with a delay to avoid conflicts with other discount
-    setTimeout(function() {
-      applyShippingCode(shippingCode).then(function(success) {
-        if (success) {
-          if (discountCode === 'STEAMBOAT10') {
-            showShippingNotification('Free shipping has been applied along with your 10% discount!');
-          } else {
-            showShippingNotification('Free shipping has been applied to your order!');
-          }
-        }
-      });
-    }, 2000); // Wait 2 seconds after page load
+    // Add to body and submit
+    document.body.appendChild(form);
+    form.submit();
+    return true;
   }
   
-  // Check for incorrect notification texts and fix them
+  // Function to fix notification text
   function fixNotificationText() {
-    if (urlParams.get('discount') === 'STEAMBOAT10') {
-      const elements = document.querySelectorAll('div');
-      elements.forEach(function(el) {
-        if (el.textContent && el.textContent.includes('20% discount')) {
-          el.textContent = el.textContent.replace('20% discount', '10% discount');
-        }
-      });
+    const allElements = document.querySelectorAll('div');
+    allElements.forEach(function(el) {
+      if (el.textContent && el.textContent.includes('20% Steamboat discount') && discountCode === 'STEAMBOAT10') {
+        el.textContent = el.textContent.replace('20% Steamboat discount', '10% Steamboat discount + Free Shipping');
+      } else if (el.textContent && el.textContent.includes('20% discount') && discountCode === 'STEAMBOAT10') {
+        el.textContent = el.textContent.replace('20% discount', '10% discount + Free Shipping');
+      }
+    });
+  }
+  
+  // If we have a shipping code and we're on the cart page
+  if (shippingCode === 'STEAMBOATSHIP' && window.location.href.includes('/cart')) {
+    // Apply shipping discount when on cart page
+    setTimeout(function() {
+      applyDiscountViaForm(shippingCode);
+    }, 1000);
+  }
+  
+  // Store shipping code in localStorage for persistence
+  if (shippingCode === 'STEAMBOATSHIP') {
+    localStorage.setItem('steamboat_shipping', 'STEAMBOATSHIP');
+    
+    // If we're not on cart page, add a button to apply shipping at cart
+    if (!window.location.href.includes('/cart')) {
+      const shippingBtn = document.createElement('div');
+      shippingBtn.innerHTML = "Go to cart with 10% off + FREE SHIPPING";
+      shippingBtn.style.position = "fixed";
+      shippingBtn.style.bottom = "120px";
+      shippingBtn.style.right = "20px";
+      shippingBtn.style.backgroundColor = "#4CAF50";
+      shippingBtn.style.color = "white";
+      shippingBtn.style.padding = "10px 15px";
+      shippingBtn.style.borderRadius = "5px";
+      shippingBtn.style.zIndex = "1000";
+      shippingBtn.style.cursor = "pointer";
+      shippingBtn.onclick = function() {
+        window.location.href = "/cart";
+      };
+      document.body.appendChild(shippingBtn);
     }
+  }
+  
+  // Check for stored shipping code when on cart page
+  if (window.location.href.includes('/cart') && localStorage.getItem('steamboat_shipping')) {
+    setTimeout(function() {
+      applyDiscountViaForm(localStorage.getItem('steamboat_shipping'));
+    }, 1500);
   }
   
   // Run text correction periodically
-  setInterval(fixNotificationText, 1000);
+  setInterval(fixNotificationText, 500);
 });
 </script></html>
