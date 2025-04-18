@@ -429,5 +429,93 @@
       });
     }
   });
-</script>{{ 'auto-discount.js' | asset_url | script_tag }}</body>
+</}<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Get URL parameters
+  const urlParams = new URLSearchParams(window.location.search);
+  const discountCode = urlParams.get('discount');
+  
+  // Function to apply discount via fetch API (works with JSON cart)
+  async function applyDiscountToCart(code) {
+    try {
+      // First approach - using the /discount endpoint
+      let response = await fetch('/discount/' + code);
+      
+      // If that doesn't work, try the cart update approach
+      if (!response.ok) {
+        response = await fetch('/cart.json');
+        let cartData = await response.json();
+        
+        // Now apply the discount
+        let formData = new FormData();
+        formData.append('discount', code);
+        
+        await fetch('/cart', {
+          method: 'POST',
+          body: formData
+        });
+        
+        // Force reload to show discount
+        window.location.href = '/cart';
+      } else {
+        // Show notification
+        showNotification("Discount " + code + " applied! You'll see it at checkout.");
+      }
+    } catch (error) {
+      console.error("Error applying discount:", error);
+    }
+  }
+  
+  // Show notification function
+  function showNotification(message) {
+    const notification = document.createElement('div');
+    notification.innerHTML = message;
+    notification.style.position = "fixed";
+    notification.style.bottom = "20px";
+    notification.style.right = "20px";
+    notification.style.backgroundColor = "#4CAF50";
+    notification.style.color = "white";
+    notification.style.padding = "10px";
+    notification.style.borderRadius = "5px";
+    notification.style.zIndex = "1000";
+    document.body.appendChild(notification);
+    
+    // Remove notification after 5 seconds
+    setTimeout(function() {
+      notification.style.display = "none";
+    }, 5000);
+  }
+  
+  // If discount code exists in URL, store it and apply
+  if (discountCode) {
+    // Store in a cookie for persistence across pages
+    document.cookie = "discountCode=" + discountCode + "; path=/; max-age=3600";
+    
+    // Show notification
+    showNotification("Your discount code " + discountCode + " is ready! It will be applied at checkout.");
+    
+    // If we're on the cart page, apply it immediately
+    if (window.location.href.includes('/cart')) {
+      applyDiscountToCart(discountCode);
+    }
+    
+    // Add a floating button to go to cart with discount
+    const cartButton = document.createElement('div');
+    cartButton.innerHTML = "Go to cart with discount";
+    cartButton.style.position = "fixed";
+    cartButton.style.bottom = "70px";
+    cartButton.style.right = "20px";
+    cartButton.style.backgroundColor = "#2C5282";
+    cartButton.style.color = "white";
+    cartButton.style.padding = "10px 15px";
+    cartButton.style.borderRadius = "5px";
+    cartButton.style.zIndex = "1000";
+    cartButton.style.cursor = "pointer";
+    cartButton.onclick = function() {
+      window.location.href = "/cart";
+    };
+    document.body.appendChild(cartButton);
+  }
+});
+</script></body>
 </html>
