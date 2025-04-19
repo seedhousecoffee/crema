@@ -524,23 +524,48 @@ document.addEventListener('DOMContentLoaded', function() {
   const urlParams = new URLSearchParams(window.location.search);
   const discountCode = urlParams.get('discount');
   
-  // If the special combined code is in the URL
-  if (discountCode === 'STEAMBOATSPECIAL') {
-    // Find and replace any generic discount notifications
-    function updateNotificationText() {
-      const elements = document.querySelectorAll('div');
-      elements.forEach(function(el) {
-        if (el.textContent && (
-            el.textContent.includes('discount has been applied') || 
-            el.textContent.includes('Steamboat discount'))) {
-          el.textContent = 'Your 10% off + FREE SHIPPING Steamboat special offer has been applied!';
-        }
-      });
-    }
-    
-    // Run immediately and then periodically to catch dynamically added notifications
-    updateNotificationText();
-    setInterval(updateNotificationText, 500);
+  // Only proceed if a discount code exists
+  if (discountCode) {
+    // Apply the discount code
+    fetch('/discount/' + discountCode, {
+      method: 'GET',
+      credentials: 'same-origin'
+    }).then(function(response) {
+      // Create notification
+      const notification = document.createElement('div');
+      
+      // Set message based on discount code
+      if (discountCode === 'STEAMBOATSPECIAL') {
+        notification.textContent = 'Your 10% off + FREE SHIPPING Steamboat special offer has been applied!';
+      } else if (discountCode === 'STEAMBOAT20') {
+        notification.textContent = 'Your 20% Steamboat discount has been applied!';
+      } else {
+        notification.textContent = 'Your discount has been applied!';
+      }
+      
+      // Style notification
+      notification.style.position = 'fixed';
+      notification.style.bottom = '20px';
+      notification.style.right = '20px';
+      notification.style.background = '#4CAF50';
+      notification.style.color = 'white';
+      notification.style.padding = '10px 20px';
+      notification.style.borderRadius = '4px';
+      notification.style.zIndex = '9999';
+      notification.style.boxShadow = '0 2px 10px rgba(0,0,0,0.2)';
+      document.body.appendChild(notification);
+      
+      // Remove after 5 seconds
+      setTimeout(function() {
+        notification.style.opacity = '0';
+        notification.style.transition = 'opacity 0.5s ease';
+        setTimeout(function() {
+          if (document.body.contains(notification)) {
+            document.body.removeChild(notification);
+          }
+        }, 500);
+      }, 5000);
+    });
   }
 });
 </script></html>
