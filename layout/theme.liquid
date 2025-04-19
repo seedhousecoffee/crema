@@ -485,39 +485,6 @@ document.addEventListener('DOMContentLoaded', function() {
       notification.style.display = "none";
     }, 5000);
   }
-  
-  // If discount code exists in URL, store it and apply
-  if (discountCode) {
-    // Store in a cookie for persistence across pages
-    document.cookie = "discountCode=" + discountCode + "; path=/; max-age=3600";
-    
-    // Show notification
-    showNotification("Your discount code " + discountCode + " is ready! It will be applied at checkout.");
-    
-    // If we're on the cart page, apply it immediately
-    if (window.location.href.includes('/cart')) {
-      applyDiscountToCart(discountCode);
-    }
-    
-    // Add a floating button to go to cart with discount
-    const cartButton = document.createElement('div');
-    cartButton.innerHTML = "Go to cart with discount";
-    cartButton.style.position = "fixed";
-    cartButton.style.bottom = "70px";
-    cartButton.style.right = "20px";
-    cartButton.style.backgroundColor = "#2C5282";
-    cartButton.style.color = "white";
-    cartButton.style.padding = "10px 15px";
-    cartButton.style.borderRadius = "5px";
-    cartButton.style.zIndex = "1000";
-    cartButton.style.cursor = "pointer";
-    cartButton.onclick = function() {
-      window.location.href = "/cart";
-    };
-    document.body.appendChild(cartButton);
-  }
-});
-
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   // Get URL parameters
