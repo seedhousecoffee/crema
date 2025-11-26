@@ -9,6 +9,55 @@
  */
 {
   "sections": {
+    "image_banner_PDr7Jw": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_hyCVVY": {
+          "type": "heading",
+          "settings": {
+            "heading": "Small Batch Specialty Coffee, <strong>100% organic</strong> and roasted to present a distinct sense of place.",
+            "heading_size": "h1"
+          }
+        },
+        "text_wCKRLb": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        },
+        "buttons_ihe83K": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "SHOP COFFEE",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_hyCVVY",
+        "text_wCKRLb",
+        "buttons_ihe83K"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/IMG_0309.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-324a26cd-1167-4806-92f9-dce9895ba86e",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "46df8da4-fe0e-437c-8d8a-1500e414c66b": {
       "type": "image-banner",
       "blocks": {
@@ -36,6 +85,7 @@
         "template--14912332300342__46df8da4-fe0e-437c-8d8a-1500e414c66b-16869374143679a039-2",
         "heading_wmY8A9"
       ],
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "image": "shopify://shop_images/banner_blank.jpg",
@@ -276,6 +326,7 @@
     }
   },
   "order": [
+    "image_banner_PDr7Jw",
     "46df8da4-fe0e-437c-8d8a-1500e414c66b",
     "e31311a7-adc9-49dd-9455-0090b721e84f",
     "1d76ca63-5a58-4f2d-a946-50e3f87dd145",
