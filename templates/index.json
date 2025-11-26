@@ -47,13 +47,13 @@
       "settings": {
         "image": "shopify://shop_images/Screenshot_2025-11-26_at_10.23.02_AM.png",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "small",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "left",
         "color_scheme": "scheme-324a26cd-1167-4806-92f9-dce9895ba86e",
         "image_behavior": "none",
-        "mobile_content_alignment": "center",
+        "mobile_content_alignment": "left",
         "stack_images_on_mobile": false,
         "show_text_below": false
       }
