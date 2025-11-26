@@ -47,7 +47,7 @@
       "settings": {
         "image": "shopify://shop_images/Screenshot_2025-11-26_at_10.23.02_AM.png",
         "image_overlay_opacity": 0,
-        "image_height": "small",
+        "image_height": "large",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "left",
