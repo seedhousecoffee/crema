@@ -481,3 +481,15 @@
     color: currentColor;
   }
 }
+/* Full screen banner on mobile */
+@media screen and (max-width: 749px) {
+  .banner--large {
+    min-height: 100vh;
+    min-height: 100dvh;
+  }
+  
+  .banner--large .banner__media {
+    min-height: 100vh;
+    min-height: 100dvh;
+  }
+}

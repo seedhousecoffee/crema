@@ -490,15 +490,3 @@
   ]
 }
 {% endschema %}
-/* Full screen banner on mobile */
-@media screen and (max-width: 749px) {
-  #Banner-{{ section.id }}.banner--large {
-    min-height: 100vh;
-    min-height: 100dvh; /* Better for mobile browsers */
-  }
-  
-  #Banner-{{ section.id }}.banner--large .banner__media {
-    min-height: 100vh;
-    min-height: 100dvh;
-  }
-}
