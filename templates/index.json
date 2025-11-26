@@ -50,7 +50,7 @@
         "image_height": "medium",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
-        "desktop_content_alignment": "center",
+        "desktop_content_alignment": "left",
         "color_scheme": "scheme-324a26cd-1167-4806-92f9-dce9895ba86e",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
