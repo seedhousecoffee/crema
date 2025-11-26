@@ -45,7 +45,7 @@
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/Screenshot_2025-11-26_at_10.23.02_AM.png",
+        "image": "shopify://shop_images/Banner_Hero.gif",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "middle-center",
