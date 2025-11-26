@@ -33,7 +33,7 @@
             "button_link_1": "",
             "button_style_secondary_1": false,
             "button_label_2": "SHOP COFFEE",
-            "button_link_2": "",
+            "button_link_2": "shopify://collections/current-coffee",
             "button_style_secondary_2": false
           }
         }
