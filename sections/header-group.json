@@ -1,1 +1,79 @@
-{"name":"t:sections.header.name","type":"header","sections":{"announcement-bar":{"type":"announcement-bar","blocks":{"announcement":{"type":"announcement","disabled":true,"settings":{"text":"Buy one gift box get one 50% OFF!  Use code: holidaygift50","link":"shopify:\/\/products\/holiday-gift-box"}}},"block_order":["announcement"],"custom_css":[],"settings":{"color_scheme":"","show_line_separator":true,"auto_rotate":false,"change_slides_speed":5}},"header":{"type":"header","custom_css":[],"settings":{"logo_position":"middle-center","menu":"refresh-draft","menu_type_desktop":"mega","sticky_header_type":"none","show_line_separator":false,"color_scheme":"scheme-9e5154fd-d35a-4549-87ba-b0474dd39752","enable_country_selector":false,"enable_language_selector":false,"mobile_logo_position":"center","margin_bottom":0,"padding_top":36,"padding_bottom":12}},"168754711953053f80":{"type":"apps","settings":{"include_margins":true}}},"order":["announcement-bar","header","168754711953053f80"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "name": "t:sections.header.name",
+  "type": "header",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement_jBAdtP": {
+          "type": "announcement",
+          "settings": {
+            "text": "🎉 Buy 2 Get 1 Free on All 12oz Bags - Automatically Applied at Checkout",
+            "link": ""
+          }
+        },
+        "announcement": {
+          "type": "announcement",
+          "disabled": true,
+          "settings": {
+            "text": "Buy one gift box get one 50% OFF!  Use code: holidaygift50",
+            "link": "shopify://products/holiday-gift-box"
+          }
+        }
+      },
+      "block_order": [
+        "announcement_jBAdtP",
+        "announcement"
+      ],
+      "custom_css": [],
+      "settings": {
+        "color_scheme": "inverse",
+        "show_line_separator": true,
+        "show_social": false,
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "enable_country_selector": false,
+        "enable_language_selector": false
+      }
+    },
+    "header": {
+      "type": "header",
+      "custom_css": [],
+      "settings": {
+        "logo_position": "middle-center",
+        "menu": "refresh-draft",
+        "menu_type_desktop": "mega",
+        "sticky_header_type": "none",
+        "show_line_separator": false,
+        "color_scheme": "scheme-9e5154fd-d35a-4549-87ba-b0474dd39752",
+        "menu_color_scheme": "",
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "mobile_logo_position": "center",
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "168754711953053f80": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header",
+    "168754711953053f80"
+  ]
+}
