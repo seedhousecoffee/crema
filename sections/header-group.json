@@ -16,7 +16,6 @@
       "blocks": {
         "announcement_jBAdtP": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
             "text": "🎉 Buy 2 Get 1 Free on All 12oz Bags - Automatically Applied at Checkout",
             "link": ""
