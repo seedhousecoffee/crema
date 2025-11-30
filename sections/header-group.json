@@ -16,6 +16,7 @@
       "blocks": {
         "announcement_jBAdtP": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "🎉Free Shipping on All Orders!",
             "link": ""
