@@ -16,9 +16,8 @@
       "blocks": {
         "announcement_jBAdtP": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
-            "text": "🎉Free Shipping on All Orders!",
+            "text": "🎉 Today Only: Build Your Perfect Coffee Bundle & Save Up to 30%",
             "link": ""
           }
         },
