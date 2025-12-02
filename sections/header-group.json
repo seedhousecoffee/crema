@@ -16,6 +16,7 @@
       "blocks": {
         "announcement_jBAdtP": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "🎉 Today Only: Build Your Perfect Coffee Bundle & Save Up to 30%",
             "link": ""
