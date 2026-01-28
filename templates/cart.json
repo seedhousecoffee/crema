@@ -17,6 +17,24 @@
         "padding_bottom": 36
       }
     },
+    "17696283670d2f9346": {
+      "type": "apps",
+      "blocks": {
+        "acerill_form_builder_custom_form_9E3Nbr": {
+          "type": "shopify://apps/acerill-form-builder/blocks/custom-form/830f910d-3579-44cb-9d18-92197bb5bd98",
+          "settings": {
+            "formId": "bb477525-d57d-4009-9361-996ce014b729",
+            "behavior": "standard"
+          }
+        }
+      },
+      "block_order": [
+        "acerill_form_builder_custom_form_9E3Nbr"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "cart-footer": {
       "type": "main-cart-footer",
       "blocks": {
@@ -38,29 +56,11 @@
         "padding_top": 40,
         "padding_bottom": 40
       }
-    },
-    "17696283670d2f9346": {
-      "type": "apps",
-      "blocks": {
-        "acerill_form_builder_custom_form_DUBiHP": {
-          "type": "shopify://apps/acerill-form-builder/blocks/custom-form/830f910d-3579-44cb-9d18-92197bb5bd98",
-          "settings": {
-            "formId": "bb477525-d57d-4009-9361-996ce014b729",
-            "behavior": "standard"
-          }
-        }
-      },
-      "block_order": [
-        "acerill_form_builder_custom_form_DUBiHP"
-      ],
-      "settings": {
-        "include_margins": true
-      }
     }
   },
   "order": [
     "cart-items",
-    "cart-footer",
-    "17696283670d2f9346"
+    "17696283670d2f9346",
+    "cart-footer"
   ]
 }
