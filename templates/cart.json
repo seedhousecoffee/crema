@@ -24,7 +24,7 @@
           "type": "shopify://apps/acerill-form-builder/blocks/custom-form/830f910d-3579-44cb-9d18-92197bb5bd98",
           "settings": {
             "formId": "bb477525-d57d-4009-9361-996ce014b729",
-            "behavior": "standard"
+            "behavior": "set-cart-attributes"
           }
         }
       },
