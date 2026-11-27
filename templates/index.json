@@ -30,7 +30,6 @@
         },
         "buttons_ihe83K": {
           "type": "buttons",
-          "disabled": true,
           "settings": {
             "button_label_1": "",
             "button_link_1": "",
@@ -56,7 +55,7 @@
         "desktop_content_alignment": "center",
         "color_scheme": "scheme-fb039e66-4969-4c1a-a8a9-98e8a6c86b42",
         "image_behavior": "none",
-        "mobile_content_alignment": "left",
+        "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": false
       }
