@@ -14,6 +14,7 @@
       "blocks": {
         "heading_hyCVVY": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "Small Batch Specialty Coffee, <strong>100% organic</strong> and roasted to present a distinct sense of place.",
             "heading_size": "h0"
@@ -46,13 +47,13 @@
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/Hero_Image.webp",
+        "image": "shopify://shop_images/Site_hero_1534_x_1826_2x_9c3bb78e-5237-440f-b062-6bb610fa64b1.png",
         "image_overlay_opacity": 0,
         "image_height": "large",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "left",
-        "color_scheme": "scheme-324a26cd-1167-4806-92f9-dce9895ba86e",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-f35c4d48-3ccf-47e0-8415-f812fd0bf82d",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "stack_images_on_mobile": true,
