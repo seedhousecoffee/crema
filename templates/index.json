@@ -63,6 +63,13 @@
     "46df8da4-fe0e-437c-8d8a-1500e414c66b": {
       "type": "image-banner",
       "blocks": {
+        "heading_wmY8A9": {
+          "type": "heading",
+          "settings": {
+            "heading": "Small Batch Specialty Coffee, <strong>100% organic</strong> and roasted to present a distinct sense of place.",
+            "heading_size": "h1"
+          }
+        },
         "template--14912332300342__46df8da4-fe0e-437c-8d8a-1500e414c66b-16869374143679a039-2": {
           "type": "buttons",
           "disabled": true,
@@ -74,18 +81,11 @@
             "button_link_2": "shopify://products/seedhouse-coffee-gift-card",
             "button_style_secondary_2": true
           }
-        },
-        "heading_wmY8A9": {
-          "type": "heading",
-          "settings": {
-            "heading": "Small Batch Specialty Coffee, <strong>100% organic</strong> and roasted to present a distinct sense of place.",
-            "heading_size": "h1"
-          }
         }
       },
       "block_order": [
-        "template--14912332300342__46df8da4-fe0e-437c-8d8a-1500e414c66b-16869374143679a039-2",
-        "heading_wmY8A9"
+        "heading_wmY8A9",
+        "template--14912332300342__46df8da4-fe0e-437c-8d8a-1500e414c66b-16869374143679a039-2"
       ],
       "disabled": true,
       "custom_css": [],
