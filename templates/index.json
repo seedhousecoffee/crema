@@ -21,6 +21,7 @@
         },
         "text_wCKRLb": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "",
             "text_style": "body"
