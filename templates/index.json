@@ -50,7 +50,7 @@
         "image": "shopify://shop_images/Site_hero_1534_x_1826_2x_9c3bb78e-5237-440f-b062-6bb610fa64b1.png",
         "image_overlay_opacity": 0,
         "image_height": "large",
-        "desktop_content_position": "middle-center",
+        "desktop_content_position": "bottom-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "scheme-fb039e66-4969-4c1a-a8a9-98e8a6c86b42",
